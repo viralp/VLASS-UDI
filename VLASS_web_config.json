@@ -1,0 +1,80 @@
+{
+  "vis_list": [
+    "/lustre/aoc/projects/vlass/vparekh/archive/3C75/VLASS1.1.sb34418989.eb34425056.58011.2817505787.ms",
+    "/lustre/aoc/projects/vlass/vparekh/archive/3C75/VLASS2.1.sb38530355.eb38576088.59078.34299474537.ms",
+    "/lustre/aoc/projects/vlass/vparekh/archive/3C75/VLASS3.1.sb43928060.eb43975449.60083.774904618054.ms",
+    "/lustre/aoc/projects/vlass/vparekh/archive/3C75/VLASS4.1.sb49207167.eb49619673.60971.29332094907.ms"
+  ],
+  "processing_flags": [
+    {
+      "target_split": true,
+      "init_imaging": true,
+      "mask": false,
+      "selfcal": true,
+      "delay_selfcal": false,
+      "pol_cleaning": true
+    },
+    {
+      "target_split": true,
+      "init_imaging": true,
+      "mask": false,
+      "selfcal": true,
+      "delay_selfcal": false,
+      "pol_cleaning": true
+    },
+    {
+      "target_split": true,
+      "init_imaging": true,
+      "mask": false,
+      "selfcal": true,
+      "delay_selfcal": false,
+      "pol_cleaning": true
+    },
+    {
+      "target_split": true,
+      "init_imaging": true,
+      "mask": false,
+      "selfcal": true,
+      "delay_selfcal": false,
+      "pol_cleaning": true
+    }
+  ],
+  "joint_deconvolution": true,
+  "joint_selfcal": true,
+  "joint_pol_deconvolution": true,
+  "awp_image_cube": true,
+  "spx_map_VLASS1": true,
+  "spx_map_VLASS2": true,
+  "spx_map_VLASS3": true,
+  "spx_map_VLASS_combine": true,
+  "weighted_combine_maps": true,
+  "colname": "corrected",
+  "channelaverage": false,
+  "timeaverage": false,
+  "Ra_1": 44.4235,
+  "Dec_1": 6.02444444,
+  "R": 0.1,
+  "mask_threshold": 3.0,
+  "cell": "0.6arcsec",
+  "niter": 20000,
+  "gridder": "mosaic",
+  "wprojplanes": 1,
+  "weighting": "briggs",
+  "robust": 0.0,
+  "specmode": "mfs",
+  "parallel": false,
+  "imagename_base": "3C75_VLASS",
+  "field": "",
+  "spw": "",
+  "uvrange": "",
+  "mask": "",
+  "usepointing": true,
+  "pointingoff": [
+    300.0,
+    30.0
+  ],
+  "peeling": false,
+  "peeling_num_sources": 1,
+  "array_size": 5,
+  "report_only": false
+}
