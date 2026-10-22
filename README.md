@@ -99,7 +99,7 @@ Select multiple MSes to process together in the **standard multi-MS VLASS pipeli
 
 The interface creates a multi-MS run directory, prepares `SEIP_parameter.list` and `casa_imaging_vlass_multims.py`, and submits a Slurm job for combined processing of the selected measurement sets.
 
-## 5. Output and execution notes
+## 4. Output and execution notes
 
 - Steps 2–4 use run-specific date/time directories to help prevent collisions with products from earlier runs.
 - Archive-restored MSes may be placed inside nested subdirectories; the generated job scripts include logic to resolve these paths before CASA imaging.
@@ -107,7 +107,7 @@ The interface creates a multi-MS run directory, prepares `SEIP_parameter.list` a
 - Job execution time depends on archive restoration, scheduling, data size, and imaging settings. Inspect Slurm and CASA logs on the execution host if a job fails.
 - The default product root, CASA executable paths, and archive Lustre directory are configured at the beginning of `VLASS_web_interface.py`. Review them before deploying under another account.
 
-## 6. Quick troubleshooting
+## 5. Quick troubleshooting
 
 **Missing tile or SDM mapping:** Confirm `Tile_Boundaries.csv` and `vlass_sdm_to_tile.csv` are in the same folder as `VLASS_web_interface.py`, and check that their column formats match the expected data.
 
